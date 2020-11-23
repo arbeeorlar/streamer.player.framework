@@ -1,0 +1,6 @@
+framework module streamer_player_framework {
+  umbrella header "streamer.player.framework-umbrella.h"
+
+  export *
+  module * { export * }
+}

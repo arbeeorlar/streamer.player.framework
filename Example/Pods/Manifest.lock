@@ -1,0 +1,16 @@
+PODS:
+  - streamer.player.framework (0.1.0)
+
+DEPENDENCIES:
+  - streamer.player.framework (from `../`)
+
+EXTERNAL SOURCES:
+  streamer.player.framework:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  streamer.player.framework: 4a67ad3f960cb1cd68d8cc48ed564fa6c4cbf2d2
+
+PODFILE CHECKSUM: 6d8cea31873fecdcb4e58ad3d0b76b13d6a7e28b
+
+COCOAPODS: 1.10.0

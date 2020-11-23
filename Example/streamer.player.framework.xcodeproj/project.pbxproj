@@ -30,7 +30,7 @@
 /* Begin PBXFileReference section */
 		1C6E5F435B31185FE5FCBF52 /* Pods-streamer.player.framework_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-streamer.player.framework_Example.release.xcconfig"; path = "Target Support Files/Pods-streamer.player.framework_Example/Pods-streamer.player.framework_Example.release.xcconfig"; sourceTree = "<group>"; };
 		3622DD06DE3DB2A439939160 /* Pods_streamer_player_framework_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_streamer_player_framework_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		3635FD03A97C747ACCB4EBFA /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		3635FD03A97C747ACCB4EBFA /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* streamer.player.framework_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = streamer.player.framework_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -44,8 +44,8 @@
 		6286790B9D83BC8217ADE0EF /* Pods-streamer.player.framework_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-streamer.player.framework_Tests.release.xcconfig"; path = "Target Support Files/Pods-streamer.player.framework_Tests/Pods-streamer.player.framework_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		6AAB7126FC71E223FC0FB76A /* Pods_streamer_player_framework_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_streamer_player_framework_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD624A03596F1478D314EF12 /* Pods-streamer.player.framework_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-streamer.player.framework_Example.debug.xcconfig"; path = "Target Support Files/Pods-streamer.player.framework_Example/Pods-streamer.player.framework_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		CAFBD18D54AD00D4C3BFCD11 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		D7758296696F3558D3278212 /* streamer.player.framework.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = streamer.player.framework.podspec; path = ../streamer.player.framework.podspec; sourceTree = "<group>"; };
+		CAFBD18D54AD00D4C3BFCD11 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		D7758296696F3558D3278212 /* streamer.player.framework.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = streamer.player.framework.podspec; path = ../streamer.player.framework.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		F489E1627BC62DF89F1F328E /* Pods-streamer.player.framework_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-streamer.player.framework_Tests.debug.xcconfig"; path = "Target Support Files/Pods-streamer.player.framework_Tests/Pods-streamer.player.framework_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -156,7 +156,6 @@
 				F489E1627BC62DF89F1F328E /* Pods-streamer.player.framework_Tests.debug.xcconfig */,
 				6286790B9D83BC8217ADE0EF /* Pods-streamer.player.framework_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -227,6 +226,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);

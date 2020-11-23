@@ -20,23 +20,31 @@ Pod::Spec.new do |s|
   s.description      = <<-DESC
 TODO: Add long description of the pod here.
                        DESC
-
-  s.homepage         = 'https://github.com/arbeeorlar/streamer.player.framework'
+                       
+  s.homepage        =  "https://abeebsuprbiz@github.com/SuprBiz/Streamer.Swift.SDK.git"
+  #s.homepage         = 'https://github.com/arbeeorlar/streamer.player.framework'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'arbeeorlar' => 'isola@suprbiz.io' }
-  s.source           = { :git => 'https://github.com/arbeeorlar/streamer.player.framework.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://abeebsuprbiz@github.com/SuprBiz/Streamer.Swift.SDK.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
-
+  s.swift_version = "5.0"
   s.source_files = 'streamer.player.framework/Classes/**/*'
-  
+  s.requires_arc = true
   # s.resource_bundles = {
   #   'streamer.player.framework' => ['streamer.player.framework/Assets/*.png']
   # }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
+  s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
+  s.dependency "IQKeyboardManagerSwift"
+  s.dependency "Toast-Swift"
+  s.dependency "Player"
+  s.dependency "iCarousel"
+  s.dependency "Alamofire"
+  s.dependency "AlamofireImage"
+  s.dependency "SwiftSignalRClient"
 end
