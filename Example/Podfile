@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'streamer.player.framework_Example' do
+  pod 'streamer.player.framework', :path => '../'
+
+  target 'streamer.player.framework_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
